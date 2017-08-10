@@ -1,6 +1,6 @@
 import ZAFClient from 'zendesk_app_framework_sdk'
 
-const client = ZAFClient.init()
+let client = ZAFClient.init()
 
 export const ticketId = () => {
   return client.context().then(context => {
