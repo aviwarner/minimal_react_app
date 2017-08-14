@@ -2,6 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { ticketId } from './modules/zendesk'
 import App from './components/App'
+import firebase from './modules/firebase'
 
 let client = ZAFClient.init()
 const root = document.querySelector('#root')
