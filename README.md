@@ -15,7 +15,7 @@ Please refer to the [Zendesk documentation](https://developer.zendesk.com/apps/d
 
 `./bin/compilation-watcher` tells webpack to watch for file changes
 
-`./bin/zat-server` serve the app from the dist folder which is where the index.html and app.js lives
+`./bin/zat-server` serve the app from the dist folder which is where the index.html and app.js live
 
 ### Viewing the app
 
