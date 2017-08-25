@@ -1,0 +1,23 @@
+{
+  "app": {
+    "description": {
+      "value": "Add shortcuts to make your typing faster",
+      "title": "Txtr lets you customize keyboard shortcuts that make your typing faster"
+    },
+    "name": {
+      "value": "Textr App",
+      "title": "txtr"
+    }
+  },
+  "label": {
+    "close": "Close",
+    "add": "Add",
+    "add_shortcut": "Add Shortcut",
+    "edit": "Edit",
+    "shortcuts": "Shortcuts",
+    "shortcut": "Shortcut",
+    "replace_with": "Replace with",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  }
+}
