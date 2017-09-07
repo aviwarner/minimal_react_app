@@ -13,9 +13,16 @@ Please refer to the [Zendesk documentation](https://developer.zendesk.com/apps/d
 
 ### Running the app
 
-`webpack --watch` tells webpack to watch for file changes
+`./bin/compilation-watcher` tells webpack to watch for file changes
 
-`zat server --path=./dist` serve the app from the dist folder which is where the index.html and app.js live
+`./bin/zat-server` serve the app from the dist folder which is where the index.html and app.js live
+
+### Viewing the app
+
+1. Open up a ticket with the zat flag `https://[some-instance].zendesk.com/agent/tickets/1?zat=true`
+2. Make sure to allow the insecure scripts to load
+3. Open up the Apps sidebar
+4. The app should appear with a title, icon and details about the ticket.
 
 ## License
 
